@@ -11,13 +11,13 @@ Setting up a new Hyper-V instance of Windows Server, With Active Directory. A Wi
 
 5. Lets Begin With Windows Server Installation. Attach the Windows Server ISO to the VM via the Media --> DVD Drive attachment feature on Hyper-V.
 
-6. Install Windows Server.+
+6. Install Windows Server.
 
+7. Create Administrator Password as prompted.
 
+8. Once Administrator password is created, the login screen with appear. Please Login as Administrator.
 
-8. Create Administrator Password as prompted.
-
-9. Once Administrator password is created, the login screen with appear. Please Login as Administrator.
+9. Once logged in for first time, you should see the Server Manager GUI. Please create a checkpoint.
 
 10. 
 
