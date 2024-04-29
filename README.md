@@ -48,7 +48,32 @@ Setting up a new Hyper-V instance of Windows Server, With Active Directory. A Wi
 
 20. Install Active Directory Services. ![Screenshot 2024-04-29 172822](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/fda698db-482e-44b5-9a3f-fc46287d7ba3)
 
-21. 
+21. Once Active Directory Domain Services Feature is successfully installed, you will see a caution flag near the top of the screen inside of the Server Manager GUI. You will use this flag to set your server - PC as the domain controller. 
+![Screenshot 2024-04-29 173524](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/67a00fc6-12ce-44e5-ada2-cba10ec17137)
+
+22. Under Select Deployment Operation, Select Add A New Forest. Create a domain name for your server. Domain name should end in .local for this project. ![Screenshot 2024-04-29 173648](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/578c0ca8-3c35-400d-b551-0e4f4a4b0837)
+
+23. Under Domain Controller Options, Select the Forest and Domain functional level. This determines the lowest version of Windows Server that can be used with your AD Forest. Next, set your DSRM password. 
+![Screenshot 2024-04-29 173727](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/10bf77ae-483a-4809-9410-d366b31d7aea)
+
+24. Click next until you reach the Installation confirmation windows.
+  
+25. Confirm installation and install. Server - PC will reboot once install is successful. ![Screenshot 2024-04-29 174040](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/91d6ab6d-1874-4459-bee4-bea8c7c6149f)
+
+26. Once Server - PC restarts, you will notice is is now connected to your domain, you will see the name below the credential entry space. ![Screenshot 2024-04-29 174735](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/85efb6c6-97a7-4b7b-ade7-04859819cf12)
+
+27. Once logged in as Administrator, Go to the Server Manager GUI. Under tools, select Active Directory Users and Computers. ![Screenshot 2024-04-29 175214](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/b21b39a8-6be6-47cd-853c-95fe72fb168e)
+
+28. Once inside of the Active Directory Users and Computers tool, click the link down arrow, and using the User option arrow, select New, and then User.  ![Screenshot 2024-04-29 175313](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/d3682a65-3a05-485d-afa1-5562d32dd376)
+
+29. Add User information, create a username and click next. Create a temporary password. Choose the option "Change password at next login", so that the user may set their own password. Click next to confirm user information and click "Finish". ![Screenshot 2024-04-29 175341](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/e0fa4f1d-41c0-490c-8a30-0e17167bfa71) 
+![Screenshot 2024-04-29 175420](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/8ee490ed-1a4a-49bd-8074-de288e6204a5)
+![Screenshot 2024-04-29 175436](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/a3809617-862a-4c26-9b96-afbc6bdd53c3)
+
+
+30. Verify User by clicking user in Active Directory Users and Computers tool. ![Screenshot 2024-04-29 175453](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/2b00dc0f-6496-4328-b88c-15d9e19f0c06)
+
+31. 
 
 
 
