@@ -73,7 +73,21 @@ Setting up a new Hyper-V instance of Windows Server, With Active Directory. A Wi
 
 30. Verify User by clicking user in Active Directory Users and Computers tool. ![Screenshot 2024-04-29 175453](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/2b00dc0f-6496-4328-b88c-15d9e19f0c06)
 
-31. 
+31. Create a new Organizational Unit. Right click on domain name and select "New" then select Organizational Unit from dropdown options. ![Screenshot 2024-04-29 192809](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/43387c72-c0d0-4fc1-afae-f9722f077ea7)
+
+32. Name new Organizational Unit. 
+![Screenshot 2024-04-29 193025](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/c00b231d-edbb-4029-9436-4454f9411dfe)
+
+33. Add user to new Organizational Unit. Click on users panel. Right click on new created user. Click "All Tasks", and click add to Group. ![Screenshot 2024-04-29 193046](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/834fe5ba-214d-45a8-a67e-a7da24c68800)
+
+34. Search for new Organizational Unit by typing name in "Enter the object name to select" entry space. Click OK and select appropriate Organizational Unit. ![Screenshot 2024-04-29 193107](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/fad33253-9c27-482d-bedd-aa5d18a56282)
+
+35. Click OK to add user to newly created Organizational Group. ![Screenshot 2024-04-29 193119](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/0e4fcdad-7be4-49c9-ae7d-3c405f9f2a9a)
+
+This is the end of this particular lab. We have successfully installed Windows Server on Hyper-V. We then turned that server into a Domain Controller by installed Active Directory Features. We then added a user, and added that user to a newly created Organizational Unit. 
+
+In the next lab we will install and configure a Windows 10 client PC using Hyper-V. We will then add that PC to the Domain we created in this lab. Once we have done that, we will login using the created user's credentials to verify authorization and authentication to the Domain.
+
 
 
 
