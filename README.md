@@ -1,5 +1,10 @@
 # Windows Server Setup - With Active Directory
-Setting up a new Hyper-V instance of Windows Server, With Active Directory. A Windows 10 Client and Clients for the Active Directory.
+
+
+![2](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/2e32bb81-b276-418a-b10f-88bff36ed1d2)
+
+
+In this lab we will be setting up a new Hyper-V instance of Windows Server, With Active Directory. A Windows 10 Client and Clients for the Active Directory.
 
 1. I am using Hyper-V features on a Windows 10 Laptop in order to perform the steps in this Lab.
 
@@ -88,6 +93,8 @@ This is the end of this particular lab. We have successfully installed Windows S
 
 In the next lab we will install and configure a Windows 10 client PC using Hyper-V. We will then add that PC to the Domain we created in this lab. Once we have done that, we will login using the created user's credentials to verify authorization and authentication to the Domain.
 
+
+![2](https://github.com/kendal-in-tech/Server-Setup---Active-Directory-/assets/168005414/c264c923-a5c7-456f-936e-743931cf5624)
 
 
 
